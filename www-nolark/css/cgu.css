@@ -1,0 +1,86 @@
+:root {
+    --maCouleurDominante: #ff6811;
+}
+ul{
+    margin-left: 75px;
+}
+h1 {
+    color: var(--maCouleurDominante);
+    text-align: center;
+    font-size: xx-large;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+p:not(footer){
+    margin: 10px 25px;
+    text-align: justify;
+}
+
+h2 {
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    text-align: center;
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, tr, td {
+    border-style: solid;
+    border-width: 1px;
+    border-color: var(--maCouleurDominante);
+    text-align: center;
+    padding: 5px;    
+}
+
+table th {
+    color: white;
+    border-color: white;
+    background-color: var(--maCouleurDominante);
+    border-top-color : var(--maCouleurDominante);
+}
+table th:first-child {
+    border-left-color : var(--maCouleurDominante);
+}
+table th:last-child {
+    border-right-color : var(--maCouleurDominante);
+}
+
+#pfin {
+    color: var(--maCouleurDominante);
+    text-align: center;
+    font-size: x-large;
+    margin-top: 25px;
+}
+h3 {
+    margin: 30px 0 25px 25px; 
+}
+
+h4 {
+    margin-top: 25px; 
+    margin-left: 50px; 
+    font-weight: bold; 
+    font-size: smaller; 
+}
+.pSousTitresN2 {
+    margin-left: 75px!important; 
+}
+
+.pSousTitres {
+     margin-left: 50px;
+}
+
+hr{
+    width: 150px;
+    height: 1px; 
+    border:none;
+    background-color: var(--maCouleurDominante); 
+    margin: 25px auto;
+}
+ul {
+    margin-left: 75px;
+ }
